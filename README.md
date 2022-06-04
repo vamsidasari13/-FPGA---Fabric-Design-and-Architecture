@@ -4,7 +4,7 @@
 
 
 
-## [Table of Content](https://www.google.com)
+## Table of Content
 
 ### Module 1
 
