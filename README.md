@@ -6,38 +6,39 @@
 
 ## [Table of Content](https://www.google.com)
 
-### ● Module 1
+### Module 1
 
-FPGA Introduction
+•	FPGA Introduction
 
-Design of a 4-bit counter through Vivado on Basys3 FPGA
+•	Design of a 4-bit counter through Vivado on Basys3 FPGA
 
-Use of Virtual Input/Output (VIO)
+•	Use of Virtual Input/Output (VIO)
 
-### ● Module 2
+###  Module 2
 
-VPR flow: tseng on Earch
+•	VPR flow: tseng on Earch
 
- VTR flow: 4 bit counter on Earch
+•	VTR flow: 4 bit counter on Earch
 
- Timing, area, power and post implementation simulation
 
- Basys3 vs VTR results
+•	Timing, area, power and post implementation simulation
 
-### ● Module 3
+•	Basys3 vs VTR results
 
- Explain RISC-V RVMyth processor code
+### Module 3
 
- Run it till bitstream on Basys3
+•	Explain RISC-V RVMyth processor code
 
-### ● Module 4
+•	Run it till bitstream on Basys3
 
- Skywater OpenSource FPGA (SOFA): 4-bit counter on SOFA
+###  Module 4
 
- Area, timing and post implementation
+•	Skywater OpenSource FPGA (SOFA): 4-bit counter on SOFA
 
-### ● Module 5
+•	Area, timing and post implementation
 
- Skywater OpenSource FPGA (SOFA): RVMyth on SOFA (https://github.com/lnis-uofu/SOFA)
+###  Module 5
 
- Area, timing and post implementation
+•	Skywater OpenSource FPGA (SOFA): RVMyth on SOFA 
+
+•	Area, timing and post implementation
