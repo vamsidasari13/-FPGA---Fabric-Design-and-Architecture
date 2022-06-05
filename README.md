@@ -89,6 +89,9 @@ Power Analysis
 VTR CAD Flow
 ![image](https://user-images.githubusercontent.com/67407412/171973891-25443a68-cdec-4221-ac1e-2085a19664f0.png)
 
+VPR takes, as input, a description of an FPGA architecture along with a technology-mapped user circuit.
+It then performs packing, placement, and routing to map the circuit onto the FPGA. The output of VPR includes the FPGA configuration needed to implement the circuit and statistics about the final mapped design (eg. critical path delay, area, etc).
+
 VPR Flow
 
 The Place and Route process in VPR consists of several steps:
