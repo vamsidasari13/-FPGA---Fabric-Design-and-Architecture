@@ -121,6 +121,10 @@ Run the entire VTR flow automatically
 
 •	Perform timing simulation on the generated fabric
 
+### Post Netlist Implementation on vivado 
+
+![upcounter impl with post_implemntaion netlist](https://user-images.githubusercontent.com/67407412/172035341-65ec6e99-7f42-44ab-929d-3518625fca38.jpg)
+
  ### Running VPR
   
 Lets now try taking a simple pre-synthesized circuit (consisting of LUTs and Flip-Flops) and use the VPR tool to implement it on a specific FPGA architecture.
@@ -152,6 +156,15 @@ Area and Timing Report
 
 Power Analysis
 
+```
+$VTR_ROOT/vtr_flow/scripts/run_vtr_flow.py \
+$VTR_ROOT/doc/src/quickstart/counter.v \
+$VTR_ROOT/vtr_flow/arch/timing/EArch.xml \
+-power -cmos_tech $VTR_ROOT/vtr_flow/tech/PTM_45nm/45nm.xml \
+-temp_dir . \
+--route_chan_width 100
+
+```
 ![Power estimation in vtr flow](https://user-images.githubusercontent.com/67407412/172035277-586117c0-23a2-4430-a468-1d68367705bc.jpg)
 
 
