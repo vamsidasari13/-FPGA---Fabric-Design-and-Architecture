@@ -57,3 +57,8 @@ Hold Timing Report
 
 ![hold timing report](https://user-images.githubusercontent.com/67407412/172048839-7c31ebb6-0860-40fc-8b60-f6e24faf786a.jpg)
 
+RTL simulation on vivado with Post Implementation netlist.
+
+![post_imple_netlist_in vivado ](https://user-images.githubusercontent.com/67407412/172049135-a87b5116-6ebf-4918-b7e3-8779b370ea83.jpg)
+
+
