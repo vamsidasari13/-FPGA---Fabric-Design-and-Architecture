@@ -69,11 +69,12 @@ SOFA (Skywater Opensource FPGAs) are a series of open-source FPGA IPs using the 
 
 ## Day - 01
 
+On Day -01 I done the 4-bit counter simulation, synthesis and implementation on xilinx vivado and later area, power, timing are estimated and generation of bitstream which is used to implement the 4-bit counter on FPGA. We can use VIO (Virtual Input/Output) for implementing it on FPGA.
+
 VIO (Virtual input/output)
 
 ![Screenshot 2022-06-05 100730](https://user-images.githubusercontent.com/67407412/172035217-7d5fc372-0ae8-4c0d-8f5f-bf287a4588af.jpg)
 
-On Day -01 I done the 4-bit counter simulation, synthesis and implementation on xilinx vivado and later area, power, timing are estimated and generation of bitstream which is used to implement the 4-bit counter on FPGA. We can use VIO (Virtual Input/Output) for  
 
 ![Counter Waveform](https://user-images.githubusercontent.com/67407412/171978978-6534d400-0e16-42d4-a859-17d82afe8447.png)
 
