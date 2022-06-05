@@ -69,7 +69,7 @@ SOFA (Skywater Opensource FPGAs) are a series of open-source FPGA IPs using the 
 
 ## Day - 01
 
-On Day -01 I done the 4-bit counter simulation, synthesis and implementation on xilinx vivado and later area, power, timing are estimated and generation of bitstream which is used to implement the 4-bit counter on FPGA
+On Day -01 I done the 4-bit counter simulation, synthesis and implementation on xilinx vivado and later area, power, timing are estimated and generation of bitstream which is used to implement the 4-bit counter on FPGA. We can use VIO (Virtual Input/Output) for  
 
 ![Counter Waveform](https://user-images.githubusercontent.com/67407412/171978978-6534d400-0e16-42d4-a859-17d82afe8447.png)
 
@@ -100,3 +100,49 @@ Placment (places complex blocks within the FPGA grid)
 Routing (determines interconnections between blocks)
 
 Analysis (analyzes the implementation)
+
+## Steps
+
+Build OpenFPGA (done on cloud)
+
+Build VTR (done on cloud)
+
+Run VPR on a Pre-Synthesized Circuit
+
+•	Observe the result files
+
+•	Visualize (GUI) circuit implementation
+
+Run the entire VTR flow automatically
+
+•	Implement our own circuit (blink.v and counter.v) on a pre-existing FPGA architecture Earch.xml (VTR_ROOT/vtr_flow/arch)
+
+•	Use an automated approach (Odin II and ABC are automatically run)
+
+•	Perform timing simulation on the generated fabric
+
+ ### Running VPR
+  
+Lets now try taking a simple pre-synthesized circuit (consisting of LUTs and Flip-Flops) and use the VPR tool to implement it on a specific FPGA architecture.
+
+Running VPR on a Pre-Synthesized Circuit
+
+``` 
+ mkdir -p vtr_work/quickstart/vpr_tseng
+ cd ~/vtr_work/quickstart/vpr_tseng
+ ```
+ 
+ Now, lets invoke the VPR tool to implement:
+ 
+``` 
+ $VTR_ROOT/vpr/vpr \
+ $VTR_ROOT/vtr_flow/arch/timing/EArch.xml \
+ $VTR_ROOT/vtr_flow/benchmarks/blif/tseng.blif \
+ --route_chan_width 100
+```
+![Screenshot (1005)](https://user-images.githubusercontent.com/67407412/172017170-3cc3c338-957f-473c-b4a8-fd850ab62a13.png)
+
+![Screenshot (1006)](https://user-images.githubusercontent.com/67407412/172031009-30f0226c-2b39-4047-ba4d-5f4eb5e037f4.png)
+
+The timing and area and power analysis can be done 
+
