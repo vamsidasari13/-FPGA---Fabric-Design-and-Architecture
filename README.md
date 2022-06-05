@@ -171,7 +171,6 @@ $VTR_ROOT/vtr_flow/arch/timing/EArch.xml \
 -power -cmos_tech $VTR_ROOT/vtr_flow/tech/PTM_45nm/45nm.xml \
 -temp_dir . \
 --route_chan_width 100
-
 ```
 ![Power estimation in vtr flow](https://user-images.githubusercontent.com/67407412/172035277-586117c0-23a2-4430-a468-1d68367705bc.jpg)
 
