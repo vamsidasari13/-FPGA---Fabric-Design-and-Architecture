@@ -152,6 +152,14 @@ The timing and area and power analysis can be done
 
 Area and Timing Report
 
+```
+$VTR_ROOT/vtr_flow/scripts/run_vtr_flow.py \
+$VTR_ROOT/doc/src/quickstart/counter.v \
+$VTR_ROOT/vtr_flow/arch/timing/EArch.xml \
+-temp_dir . \
+--route_chan_width 100
+```
+
 ![timing and area analysis in vtr flow](https://user-images.githubusercontent.com/67407412/172035259-e8e93623-157f-445f-a05b-722fdc2ee7db.jpg)
 
 Power Analysis
