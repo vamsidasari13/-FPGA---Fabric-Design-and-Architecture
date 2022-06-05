@@ -146,3 +146,12 @@ Running VPR on a Pre-Synthesized Circuit
 
 The timing and area and power analysis can be done 
 
+Area and Timing Report
+
+![timing and area analysis in vtr flow](https://user-images.githubusercontent.com/67407412/172035259-e8e93623-157f-445f-a05b-722fdc2ee7db.jpg)
+
+Power Analysis
+
+![Power estimation in vtr flow](https://user-images.githubusercontent.com/67407412/172035277-586117c0-23a2-4430-a468-1d68367705bc.jpg)
+
+
